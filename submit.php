@@ -107,5 +107,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_SERVER["HTTP_X_REQUESTED_WI
     }
 } else {
     http_response_code(403);
-    echo "Доступ заборонено";
+    echo "No access";
 }
